@@ -1,5 +1,6 @@
 :root {
     --primary-color: #3778fa;
+    --second-color: #f3f3f3
     --background-color: #fff;
     --text-color: #000;
     --font-body: 'SpaceGrotesk', sans-serif;
@@ -50,4 +51,91 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--primary-color);
+}
+
+.logo h1 {
+    font-size: 1.3rem;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+.menu-mobile button {
+    background: var(--background-color);
+    border: 0;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+#hero {
+    padding-top: 3.5rem;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.hero-content p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+.hero-content img {
+    padding-top: 2.5rem;
+}
+
+#video {
+    padding-top: 6.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-conteudo h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 2.1rem;
+}
+
+#duvidas {
+    padding-top: 6.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-duvidas h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 5rem;
 }
