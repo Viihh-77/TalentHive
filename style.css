@@ -1,6 +1,6 @@
 :root {
     --primary-color: #3778fa;
-    --second-color: #f3f3f3
+    --second-color: #f3f3f3;
     --background-color: #fff;
     --text-color: #000;
     --font-body: 'SpaceGrotesk', sans-serif;
@@ -43,19 +43,23 @@ img {
 
 ul {
     text-decoration: none;
+    list-style: none;
 }
 
 li {
     text-decoration: none;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
+    list-style: none;
+    color: inherit;
 }
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1640px;
     margin: 0 auto;
 }
 
@@ -64,21 +68,22 @@ a {
     width: 100%;
 }
 
+#header h1 {
+    font-size: clamp(1.25rem, 4vw, 2.25rem);
+    color: var(--primary-color);
+}
+
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    color: var(--primary-color);
+#menu-desktop {
+    display: none;
 }
 
-.logo h1 {
-    font-size: 1.3rem;
-}
-
-.menu-desktop {
+#login {
     display: none;
 }
 
@@ -309,31 +314,43 @@ a {
     color: #a0da7a;
 }
 
-@media (max-width: 1920px) {
-
-    .menu-desktop {
-        display: flex;
-        justify-content: space-between;
-    }
+@media (min-width: 768px) {
 
     .menu-mobile {
         display: none;
     }
 
-    .pages {
+    #menu-desktop {
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
+        gap: 2.6rem;
+        font-size: calc(1rem + 2px);
     }
 
-    .login {
+    #login {
         display: flex;
-        flex-direction: row;
+    }
+
+    #login ul {
+        display: flex;
+        gap: 2.4rem;
+        font-weight: 600;
     }
 
     .btn-header {
-        background-color: var(--primary-color);
         color: #fff;
-        border-radius: 999px;
-        padding: 0.5rem 1rem;
+        background: var(--primary-color);
+        border-radius: 100px;
+        padding: 1.1rem 2.1rem;
+    }
+
+    #hero {
+
+    }
+
+    .hero-content h2 {
+        font-size: 8.5rem;
+        width: 80%;
+        padding-top: 9rem;
     }
 }
