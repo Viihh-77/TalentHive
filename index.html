@@ -12,24 +12,25 @@
             <div class="logo">
                 <h1>TalentHive</h1>
             </div>    
-            <nav class="menu" aria-label="Menu Principal">
-                <div class="menu-mobile" aria-label="Menu Mobile">
-                    <button>&#9776</button>
-                </div>
+        <nav class="menu">
+            <div class="menu-mobile">
+            <button>&#9776</button>
+            </div>
 
-                <ul class="menu-desktop" aria-label="Menu Desktop">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Hire Freelancer</a></li>
-                    <li><a href="#">Explore</a></li>
-                    <li><a href="#">PostJob</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-
-                <ul class="menu-desktop">
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#" class="btn">Start free</a></li>
-                </ul>
-            </nav>
+            <div class="menu-desktop">
+            <ul class="pages">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Hire Freelancer</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">PostJob</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <ul class="login">
+                <li><a href="#">Login</a></li>
+                <li><a href="#" class="btn-header">Start free</a></li>
+            </ul>
+            </div>
+        </nav>
         </div>
     </header>
 
@@ -53,15 +54,19 @@
 
 
         <section id="duvidas">
-        <div class="conteudo-duvidas">
+        <div class="container">
             <h3>Why you should choose TalentHive</h3>
-            <div class="container secao-duvidas">
+            <div class="secao-duvidas">
                 <img src="assets/duvidas.png" alt="Imagem de celular">
-                <h4>How do create TalentHive account?</h4>
-                <h4>Is there a free trial avaible?</h4>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio comque nihil impedit quo minus id quod.</p>
-                <h4>Can i change my plan later?</h4>
-                <h4>How do change my account email?</h4>
+                <div class="btn-duvidas">
+                <h4 class="btn-question">How do create TalentHive account?</h4>
+                <div class="btn-question">
+                    <h4 >Is there a free trial avaible?</h4>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio comque nihil impedit quo minus id quod.</p>
+                </div>
+                <h4 class="btn-question">Can i change my plan later?</h4>
+                <h4 class="btn-question">How do change my account email?</h4>
+                </div>
             </div>
         </div>
         </section>
@@ -112,11 +117,10 @@
 
             <div class="final-footer">
                 <p>©2023 Talenthive. All rights reserved</p>
-                <p>101 Marlow Street. #12-05 Clife Parkview. Singapore 059020. View on Maps</p>
+                <p>101 Marlow Street. #12-05 Clife Parkview. Singapore 059020. <span class="green">View on Maps</span></p>
                 <p>Cookies Policy  | Map</p>
             </div>
         </div>
     </footer>
-
 </body>
 </html>
