@@ -87,6 +87,10 @@ a {
     display: none;
 }
 
+#img-desktop {
+    display: none;
+}
+
 .menu-mobile button {
     background: var(--background-color);
     border: 0;
@@ -206,7 +210,7 @@ a {
     color: #000000;
 }
 
-.footer-learn::after {
+#barra-divisoria::after {
     content: "";
     display: block;
     width: 100%;
@@ -345,12 +349,201 @@ a {
     }
 
     #hero {
-
+        padding-top: 8.9375rem;
     }
 
     .hero-content h2 {
         font-size: 8.5rem;
         width: 80%;
-        padding-top: 9rem;
     }
+
+    .hero-content p {
+        font-size: 1.5rem;
+        width: 839px;
+    }
+
+    .hero-content img {
+        padding-top: 4.5rem;
+    }
+
+    #video {
+        padding-top: 18.8125rem;
+    }
+
+    .video-conteudo h3 {
+        font-size: 6.25rem;
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .video-conteudo img {
+        padding-top: 8.5rem;
+    }
+
+    #img-mobile {
+        display: none;
+    }
+
+    #img-desktop {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        width: auto;
+        height: 939px;
+        padding-top: 7.5rem;
+        padding-left: 5.6875rem;
+    }
+
+    #duvidas {
+        padding-top: 18.75rem;
+    }
+    
+    #duvidas h3 {
+        padding-bottom: 4.9375rem;
+        font-size: 8.5rem;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .secao-duvidas {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        height: 939px;
+    }
+    
+    .btn-duvidas {
+        padding-top: 7.5rem;
+        padding-left: 6.1875rem;
+        width: 842px;
+        margin-right: 2rem;
+    }
+    
+    .btn-question {
+        font-size: 1.875rem;
+        background-color: #fff;
+        border-radius: 16px;
+        margin-top: 1.625rem;
+        padding: 2.875rem 2rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .btn-question p {
+        font-size: 1.25rem;
+        width: 50%;
+        margin-top: 1rem;
+    }
+    
+    .footer-learn {
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer-learn h1 {
+        font-size:  8.5rem;
+        width: 70%;
+    }
+    
+    .footer-learn p {
+        font-size:  1.5rem;
+        text-align: justify;
+        width: 75%;
+    }
+    
+    .footer-learn a {
+        font-size: 1.375rem;
+    }
+
+    .desktop-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+    }
+    
+    #barra-divisoria::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .btn {
+        padding: 1.375rem 2.625rem;
+    }
+
+    .desktop-footer-links {
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+    }
+
+    .footer-discover {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .footer-discover-btn {
+        width: 159px;
+    }
+
+    .footer-discover-conteudo {
+        width: 90%;
+    }
+    
+    .footer-discover-conteudo h3 {
+       font-size: 2.5rem; 
+    }
+    
+    .footer-discover-conteudo p {
+        font-size: 1.25rem;
+        width: 323px;
+    }
+    
+    .footer-discover-btn a {
+        font-size: 1.375rem;
+        width: 165px;
+    }
+    
+    .footer-others {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+    }
+    
+    .footer-others a {
+        font-size: 1.375rem;
+    }
+    
+    .footer-duvidas a {
+        font-size: 1.375rem;
+    }
+    
+    .footer-terms a {
+        font-size: 1.375rem;
+    }
+    
+    .footer-social a {
+        font-size: 1.375rem;
+    }
+    
+    .final-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .final-footer p {
+        font-size: 1.125rem;
+    }
+
 }
